@@ -1,0 +1,8 @@
+version: '2.3'
+services:
+  # change to corresponding service from docker-compose.yml
+  code_architecture-container:
+    volumes:
+      - ..:/workspaces:cached
+
+    command: /bin/sh -c "while sleep 1000; do :; done"
