@@ -8,7 +8,6 @@
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
   "onCreateCommand": "apt-get -y update && apt-get -y upgrade && apt-get install -y clangd clang-format gdb",
   "postCreateCommand": "bash ./.devcontainer/post_create.sh",
-  "postAttachCommand": "su -s /bin/bash user",
   "customizations": {
     "vscode": {
       "extensions": [
